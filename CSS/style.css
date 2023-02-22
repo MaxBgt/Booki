@@ -536,7 +536,7 @@ a {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .wrapper {
     margin: 0 auto;
     max-width: 768px;
