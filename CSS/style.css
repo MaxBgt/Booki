@@ -523,7 +523,7 @@ a {
   }
   .footer_content {
     font-size: 0.8rem;
-    padding: 0;
+    padding-left: 70px;
     width: 30%;
   }
 
