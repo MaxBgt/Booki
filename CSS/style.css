@@ -353,8 +353,6 @@ a {
   flex-wrap: wrap;
   margin-top: 60px;
   margin-left: 50px;
-  border-radius: 15px;
-  border-radius: 20px;
   background: var(--background);
 }
 .footer_content {
