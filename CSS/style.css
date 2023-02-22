@@ -374,9 +374,7 @@ a {
     margin: 0 auto;
     max-width: 992px;
   }
-  .header {
-    margin-left: 72px;
-  }
+
   .nav-content {
     display: flex;
     justify-content: flex-end;
@@ -384,46 +382,39 @@ a {
   .nav_right {
     margin-right: 72px;
   }
-  .menu {
-    margin-left: 72px;
-  }
-  .filters {
-    width: 86%;
-    margin-left: 72px;
-  }
 
+  .filters {
+    margin-left: 54px;
+  }
   .filter_title {
     margin-top: 10px;
   }
   .filter_category {
     justify-content: flex-start;
     align-items: center;
+    margin-left: 8px;
   }
   .filter {
     width: auto;
-    padding-right: 14px;
     margin-top: 10px;
     padding-left: 14px;
     font-size: 17px;
   }
 
-  .animaux {
-    margin-right: 0;
-  }
-  .infos {
-    margin-left: 72px;
+  .filter:not(:last-child) {
+    margin-right: 20px;
   }
 
-  .search {
-    margin-left: 72px;
+  .infos {
+    margin-left: 54px;
   }
   .card {
     display: block;
   }
   .hebergements {
     width: auto;
-    margin-right: 72px;
-    margin-left: 72px;
+    margin-right: 54px;
+    margin-left: 54px;
   }
   .left_title {
     margin-top: 39px;
@@ -447,8 +438,8 @@ a {
   .popular {
     width: auto;
     margin-top: 53px;
-    margin-right: 72px;
-    margin-left: 72px;
+    margin-right: 54px;
+    margin-left: 54px;
   }
 
   .right_title {
@@ -505,15 +496,15 @@ a {
   }
 
   .activites {
-    margin-left: 72px;
-    margin-right: 72px;
+    margin-left: 54px;
+    margin-right: 54px;
   }
   .activite {
     width: 100%;
     justify-content: center;
   }
   .activite_container:not(:last-child) {
-    margin-right: 0;
+    margin-right: 20px;
   }
 
   .photo_activite {
@@ -527,8 +518,8 @@ a {
     font-size: 1rem;
   }
   .footer_container {
-    margin-left: 72px;
-    margin-right: 72px;
+    margin-left: 54px;
+    margin-right: 54px;
   }
   .footer_content {
     font-size: 0.8rem;
