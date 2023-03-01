@@ -262,7 +262,7 @@ a {
 .fa-chart-line {
   color: var(--blue);
   font-size: 15.75px;
-  margin-right: 42px;
+  margin-right: 20px;
 }
 .card_popular {
   display: flex;
@@ -286,10 +286,13 @@ a {
   border-radius: 20px;
 }
 
+.card_container:last-child {
+  margin-bottom: 34px;
+}
+
 .description_pop {
   margin-left: 15px;
-  margin-right: 22px;
-  width: 55%;
+  margin-right: 10px;
 }
 
 .photo_pop {
@@ -300,7 +303,6 @@ a {
   border-bottom-left-radius: 20px;
   margin-left: 3px;
   margin-top: 3px;
-  margin-bottom: 3px;
 }
 .name_pop {
   font-weight: bold;
@@ -586,7 +588,7 @@ a {
 
   .fa-location-dot {
     font-size: 18px;
-    padding: 16px 15px 15px 18px;
+    padding: 13px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
@@ -596,8 +598,8 @@ a {
     padding: 14px 68px 14px 16px;
   }
   .fa-magnifying-glass {
-    padding: 16px;
-    margin-left: 22px;
+    padding: 13px;
+    margin-left: 15px;
     font-size: 17px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -767,7 +769,7 @@ a {
     width: 50%;
   }
   .photo_pop {
-    height: 90%;
+    height: 95%;
     width: 137px;
     margin-top: 5px;
     margin-bottom: 5px;
