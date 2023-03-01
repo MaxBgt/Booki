@@ -494,29 +494,22 @@ a {
     font-size: 12px;
     width: 123px;
   }
-
   .activites {
-    margin-left: 54px;
     margin-right: 54px;
   }
-  .activite {
-    width: 100%;
-    justify-content: center;
-  }
-  .activite_container:not(:last-child) {
-    margin-right: 20px;
-  }
 
-  .photo_activite {
-    width: 100%;
+  .activite_title {
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+  }
+  .activite_container {
     height: 267px;
   }
-
-  .activite_name {
-    margin-top: 10px;
-    width: 150px;
-    font-size: 1rem;
+  .photo_activite {
+    height: 70%;
   }
+
   .footer_container {
     margin-left: 54px;
     margin-right: 54px;
