@@ -578,13 +578,7 @@ a {
     display: flex;
     margin-left: 20px;
   }
-
-  .title {
-    width: 298px;
-    font-size: 22px;
-  }
   .subtitle {
-    font-size: 15.5px;
     margin-bottom: 0;
   }
   .search {
