@@ -653,6 +653,10 @@ a {
     font-size: 14px;
     font-weight: bold;
   }
+
+  .filter:not(:last-child) {
+    gap: 10px;
+  }
   .icon {
     font-size: 15px;
     margin-right: 5px;
@@ -672,6 +676,9 @@ a {
 
   .fam {
     margin-bottom: 20px;
+  }
+  .fa-person {
+    font-size: 20px;
   }
   .rom {
     margin-top: 0;
