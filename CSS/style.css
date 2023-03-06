@@ -62,6 +62,7 @@ a {
 
 .title {
   margin-bottom: 0px;
+  width: 84%;
   font-size: 22px;
 }
 
@@ -134,14 +135,15 @@ a {
 }
 
 .filter {
-  margin-right: 35px;
   border: 1px solid #d9d9d9;
   border-radius: 25px;
   padding: 14px 20px;
   font-size: 17px;
   margin-top: 10px;
 }
-
+.filter:not(:last-child) {
+  margin-right: 20px;
+}
 .filter:hover {
   background-color: #deebff;
   transition: 0.2s;
@@ -261,7 +263,7 @@ a {
 .fa-chart-line {
   color: var(--blue);
   font-size: 15.75px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .card_popular {
   display: flex;
@@ -277,7 +279,7 @@ a {
   width: 100%;
   margin-bottom: 33px;
   margin-left: 37px;
-  margin-right: 15px;
+  margin-right: 40px;
   border: 1px solid #8080801a;
   box-shadow: 3px 1px 1px #8080801c;
   border-radius: 15px;
@@ -390,6 +392,7 @@ a {
 
   .filters {
     margin-left: 54px;
+    width: 90%;
   }
   .filter_title {
     margin-top: 10px;
@@ -536,6 +539,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
   .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -582,7 +588,7 @@ a {
   }
   .search {
     margin-top: 36px;
-    margin-left: 22px;
+    margin-left: 20px;
   }
   .search_btn {
     display: none;
@@ -590,18 +596,20 @@ a {
 
   .fa-location-dot {
     font-size: 18px;
-    padding: 13px;
+    padding: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-
+  .city {
+    width: 65%;
+  }
   .city::placeholder {
     font-size: 18px;
     padding: 14px 68px 14px 16px;
   }
   .fa-magnifying-glass {
-    padding: 13px;
-    margin-left: 11px;
+    padding: 15px;
+
     font-size: 17px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -617,6 +625,7 @@ a {
     flex-direction: column;
     margin-right: 0;
     margin-left: 20px;
+    width: 93%;
   }
   .filter_title {
     margin-left: 0;
@@ -630,43 +639,43 @@ a {
   .filter_category {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     margin: 0;
   }
 
   .filter {
     display: flex;
     align-items: center;
-    width: 150px;
+    width: 170px;
     padding-top: 19px;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 18px;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
-  }
-  .filter:not(:last-child) {
-    margin-right: 11px;
   }
   .icon {
     font-size: 15px;
     margin-right: 5px;
   }
-  .eco {
-    margin-right: 14px;
-  }
 
   .fa-money-bill-1-wave {
     padding-left: 13px;
+    font-size: 16px;
   }
-  .fam {
-    margin-right: 0px;
+  .eco {
+    margin-bottom: 20px;
+    margin-right: 20px;
   }
-
   .fa-person {
     padding-left: 18px;
   }
+
+  .fam {
+    margin-bottom: 20px;
+  }
   .rom {
-    margin-right: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .fa-heart {
@@ -674,6 +683,7 @@ a {
   }
 
   .animaux {
+    margin-top: 0;
     margin-right: 0;
   }
 
