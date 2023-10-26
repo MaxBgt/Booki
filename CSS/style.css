@@ -629,7 +629,6 @@ a {
   }
   .filter_title {
     margin-left: 0;
-    margin-right: 270px;
     font-size: 18px;
   }
 
@@ -646,7 +645,7 @@ a {
   .filter {
     display: flex;
     align-items: center;
-    width: 170px;
+    width: 45%;
     padding-right: 0;
     padding-left: 0;
     font-size: 14px;
@@ -692,7 +691,9 @@ a {
     margin-top: 0;
     margin-right: 0;
   }
-
+  .fa-fire {
+    padding-left: 13px;
+  }
   .fa-dog {
     padding-left: 13px;
   }
